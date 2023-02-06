@@ -1,12 +1,18 @@
 body {
-    /*
+  /*
     background-image: url(./assets/bg-mobile.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
     */
 
-    /*background: color image repeat position/size8*/
-    background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+  /*background: color image repeat position/size8*/
+  background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
 }
 
+#container {
+  width: 360px;
+  height: 720px;
+  margin: auto;
+  border: 1px solid white;
+}
