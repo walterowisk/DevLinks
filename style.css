@@ -1,3 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body * {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+}
+
 body {
   /*
     background-image: url(./assets/bg-mobile.jpg);
@@ -22,4 +33,9 @@ body {
 
 #profile img {
   width: 112px;
+}
+
+#profile p {
+  font-weight: 500;
+  line-height: 24px;
 }
