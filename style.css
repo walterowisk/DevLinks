@@ -4,9 +4,13 @@
   box-sizing: border-box;
 }
 
+:root {
+  --text-color: white;
+}
+
 body * {
   font-family: "Inter", sans-serif;
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 body {
