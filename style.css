@@ -6,8 +6,13 @@
 
 :root {
   --text-color: white;
+  --bg-url: url(./assets/bg-mobile.jpg);
 }
 
+.light {
+  --text-color: black;
+  --bg-url: url(./assets/bg-mobile-light.jpg);
+}
 body * {
   font-family: "Inter", sans-serif;
   color: var(--text-color);
@@ -22,7 +27,7 @@ body {
     */
 
   /*background: color image repeat position/size8*/
-  background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+  background: var(--bg-url) no-repeat top center/cover;
 }
 
 #container {
